@@ -42,39 +42,6 @@ public class MakeChange {
 	public static int makeChange(int makeChange) {
 		int change = makeChange;
 
-		/*
-		 * if (change >= 20) { int twenties = change / 2000; change = change % 2000; if
-		 * (twenties != 0) { System.out.println(twenties + " Twenties"); } }
-		 * 
-		 * 
-		 * if (change >= 10) { int tens = change / 1000; change = change % 1000;
-		 * System.out.println(tens + " Tens"); }
-		 * 
-		 * 
-		 * if (change >= 5) { int fives = change / 500; change = change % 500; if (fives
-		 * != 0) { System.out.println(fives + " Fives"); } }
-		 * 
-		 * if (change >= 1) { int ones = change / 100; change = change % 100; if (ones
-		 * != 0) { System.out.println(ones + " Ones"); } }
-		 * 
-		 * if (change >= 0.25) { int quarters = change / 25; change = change % 25; if
-		 * (quarters != 0) { System.out.println(quarters + " Quarters"); } }
-		 * 
-		 * 
-		 * if (change >= 0.1) { int dimes = change / 10; change = change % 10; if (dimes
-		 * != 0) { System.out.println(dimes + " Dimes"); } }
-		 * 
-		 * if (change >= 0.05) { int nickel = change / 5; change = change % 5; if
-		 * (nickel != 0) { System.out.println(nickel + " Nickels"); }
-		 * 
-		 * }
-		 * 
-		 * 
-		 * if (change >= 0.01) { int pennies = change / 1; change = change % 1; if
-		 * (pennies != 0) { System.out.println(pennies + " Pennies"); }
-		 * 
-		 * }
-		 */
 		change = makeTwenties(change);
 
 		change = makeTens(change);
